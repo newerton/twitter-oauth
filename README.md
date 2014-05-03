@@ -1,9 +1,11 @@
 TwitterOAuth
 ============
-This class is a union of "abraham/twitteroauth" and "ruudk/twitteroauth".
+This class is a union of "abraham/twitteroauth"(owner), 
+"ruudk/twitteroauth"(php 5.3 and namespaces) and 
+(robhaswell/twitteroauth) (upload image).
 
 - The directories are structured and the class uses PHP5.3 namespaces.
-- Included upload image using 'statuses/update_with_media'.
+- Included upload image using 'statuses/update_with_media' (robhaswell/twitteroauth).
 
 Installation
 ------------
