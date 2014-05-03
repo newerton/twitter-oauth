@@ -1,8 +1,8 @@
 <?php
 
-namespace TwitterOAuth\OAuth\SignatureMethod;
+namespace newerton\twitteroauth\OAuth\SignatureMethod;
 
-use newerton\TwitterOAuth\OAuth\Util;
+use newerton\twitteroauth\OAuth\Util;
 
 /**
  * The PLAINTEXT method does not provide any security protection and SHOULD only be used 

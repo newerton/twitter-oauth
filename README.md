@@ -1,8 +1,9 @@
 TwitterOAuth
 ============
-This class is a union of "abraham/twitteroauth" and "ruudk/twitteroauth". 
-The directories are structured and the class uses PHP5.3 namespaces. 
-Included upload image using 'statuses/update_with_media'.
+This class is a union of "abraham/twitteroauth" and "ruudk/twitteroauth".
+
+- The directories are structured and the class uses PHP5.3 namespaces.
+- Included upload image using 'statuses/update_with_media'.
 
 Installation
 ------------
@@ -31,11 +32,10 @@ Once the extension is installed, simply use it in your code by  :
 
 ```php
 <?php
-use newerton/twitter-oauth;
+    use newerton\twitteroauth\TwitterOAuth;
 
     /**
      * Array with the OAuth tokens provided by Twitter when you create application
-     *
      */
     $config = [
             'consumer_key' => 'Consumer key',
@@ -44,7 +44,10 @@ use newerton/twitter-oauth;
             'oauth_token_secret' => 'Access token secret'
     ];
 
-    $tw = new \TwitterOAuth($config);
+    /**
+     * Instantiate TwitterOAuth class with set tokens
+     */
+    $tw = new TwitterOAuth($config);
 
     //send update status
     $response = $connection->post('statuses/update', ['status' => 'Posted by Class TwitterOAuth']);
@@ -56,6 +59,4 @@ use newerton/twitter-oauth;
         'status' => 'Posted by Class TwitterOAuth'
     );
     $response = $connection->upload('statuses/update_with_media', $params);
-?>
-
 ```

@@ -1,6 +1,6 @@
 <?php
 
-namespace newerton\TwitterOAuth\OAuth;
+namespace newerton\twitteroauth\OAuth;
 
 class Server {
 

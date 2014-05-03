@@ -1,8 +1,8 @@
 <?php
 
-namespace TwitterOAuth\OAuth\SignatureMethod;
+namespace newerton\twitteroauth\OAuth\SignatureMethod;
 
-use newerton\TwitterOAuth\OAuth\Util;
+use newerton\twitteroauth\OAuth\Util;
 
 /**
  * The RSA-SHA1 signature method uses the RSASSA-PKCS1-v1_5 signature algorithm as defined in 

@@ -1,8 +1,8 @@
 <?php
 
-namespace newerton\TwitterOAuth\OAuth\SignatureMethod;
+namespace newerton\twitteroauth\OAuth\SignatureMethod;
 
-use newerton\TwitterOAuth\OAuth\Util;
+use newerton\twitteroauth\OAuth\Util;
 
 /**
  * A class for implementing a Signature Method

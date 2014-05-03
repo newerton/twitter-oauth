@@ -1,8 +1,8 @@
 <?php
 
-namespace newerton\TwitterOAuth\OAuth\SignatureMethod;
+namespace newerton\twitteroauth\OAuth\SignatureMethod;
 
-use newerton\TwitterOAuth\OAuth\Util;
+use newerton\twitteroauth\OAuth\Util;
 
 /**
  * The HMAC-SHA1 signature method uses the HMAC-SHA1 signature algorithm as defined in [RFC2104] 
